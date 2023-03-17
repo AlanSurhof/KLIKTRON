@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+  </head>
+  <style>
+      button {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }   
+
+  </style>
+  <body>
+    <button class="myButton" onclick="changeColor(this)">Klik Saya 1</button>
+    <button class="myButton" onclick="changeColor(this)">Klik Saya 2</button>
+    <button class="myButton" onclick="changeColor(this)">Klik Saya 3</button>
+  </body>
+  <script>
+    function changeColor(button) {
+        button.style.backgroundColor = "green";
+        button.disabled = true;
+    }
+    </script>
+  
+</html>

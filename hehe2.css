@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+p {
+  margin:0;
+}
+
+h1 {
+  margin:0;
+}
+
+h2 {
+  margin: 0;
+}
+
+  header {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-container {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    
+  .cart {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    
+  .cart-count {
+      background-color: #f44336;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+    }
+    
+  i.fa-shopping-cart {
+      font-size: 20px;
+      margin-right: 10px;
+    }  
+  
+  .con {
+    display: flex;
+    height: 65px;
+    width:95%;
+    padding-top: 44px;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 0 auto;
+  }
+  .back {
+    float: left;
+  }
+  .home {
+    float: left;
+    margin-left: 105px;
+  }
+
+  .contain {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url("image 1.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+
+  .box1 {
+    width: 60%;
+  }
+
+  .boxjelas {
+    width:100%;
+    margin-top: 24px;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0; 
+  }
+  .boxfitur {
+    width: 100%;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  .concon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  ul {
+    list-style: square inside url("Rectangle 859.png");
+    margin-top:16px;
+    padding: 0;
+  }
+
+  .box2 {
+    width: 40%;
+    padding-left: 30px;
+  }
+
+  .booking {
+    width: 90%;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 26px 24px;
+  }
+
+  .bookbut {
+    width: 87%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFB524 0%, #F9A400 100%);
+    /* shadow-base */
+    box-shadow: 0px 1px 2px rgba(31, 41, 55, 0.08);
+    border-radius: 8px;
+    padding: 12px 0px;
+    margin-top: 16px;
+    color: #fff;
+  }

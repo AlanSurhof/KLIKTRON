@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="hehehe.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="nav-container">
+              <a href="#">Home</a>
+              <a href="#">Shop</a>
+              <a href="#">Sell on Our Marketplace</a>
+              <a href="#">FAQ</a>
+              <a href="#">Contact</a>
+              <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <img src="layarputihbener.svg" style="position:relative;">
+                <span class="cart-count">0</span>
+              </a>
+            </div>
+          </nav>  
+    </header>
+    <div class="container">
+      <div class="box1">
+        <div class="produk">
+          <div class="boxprod1">
+          </div>
+          <div class="boxprod2">
+            <p style="color:#025FC3;margin:0;">Horizontal</p>
+            <h2 style="margin:0;">Videotron #1</h2>
+            <p style="color:#969696;margin:0;">Jl. Indonesia Raya, Jawa Barat<br></p>
+            <p style="color:#969696;">1 Unit · 6m x 4m · 16 : 9 · Outdoor<br>Pusat Bisnis · 25.000 Orang/hari</p>
+            <p>Rp95.000.000<span style="color:#969696;">/bulan</span></p>
+            <a href="hehe2.html" class="lanjutan" style="color: #F9A400;">Lihat Detail...</a>
+          </div>
+        </div>
+      </div>
+      <div class="box2">
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright © 2023 My Website</p>
+    </footer>
+    <p id="countdown"></p>
+    <script>
+        // Set waktu untuk countdown: 15 menit (dalam milidetik)
+        var timeLeft = 15 * 60 * 1000;
+        
+        // Mulai hitung mundur
+        var countdownTimer = setInterval(function() {
+          // Cek apakah waktu habis
+          if (timeLeft <= 0) {
+            clearInterval(countdownTimer);
+            document.write("Waktu habis!");
+          } else {
+            // Tampilkan waktu yang tersisa
+            var minutes = Math.floor(timeLeft / (60 * 1000));
+            var seconds = Math.floor((timeLeft % (60 * 1000)) / 1000);
+            document.getElementById("countdown").innerHTML = 
+              minutes + " menit " + seconds + " detik tersisa.";
+          }
+          // Kurangi waktu yang tersisa setiap detik
+          timeLeft -= 1000;
+        }, 1000);
+        document.getElementById("nav");
+    </script>
+  </body>
+</html>
